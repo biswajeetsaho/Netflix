@@ -81,3 +81,7 @@ export const Register = async (req, res) => {
         console.log(error);
     }
 }
+
+export const Test1 =async(req,res)=>{
+    return res.send("Test route");
+}
